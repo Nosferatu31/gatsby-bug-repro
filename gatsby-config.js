@@ -2,5 +2,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    
+  ],
+  flags: { DEV_SSR: false }
 }

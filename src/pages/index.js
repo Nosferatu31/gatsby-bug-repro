@@ -123,9 +123,12 @@ const links = [
   },
 ]
 
+const provokingError = undefined
+
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      {provokingError}
       <h1 style={headingStyles}>
         Congratulations
         <br />
